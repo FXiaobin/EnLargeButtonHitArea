@@ -13,6 +13,7 @@
 		1861D07C1E8A37A0009D3AFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1861D07A1E8A37A0009D3AFE /* Main.storyboard */; };
 		1861D07E1E8A37A0009D3AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1861D07D1E8A37A0009D3AFE /* Assets.xcassets */; };
 		1861D0811E8A37A0009D3AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1861D07F1E8A37A0009D3AFE /* LaunchScreen.storyboard */; };
+		1861D08A1E8A37B4009D3AFE /* UIButton+EnLarge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1861D0891E8A37B4009D3AFE /* UIButton+EnLarge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1861D07D1E8A37A0009D3AFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1861D0801E8A37A0009D3AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1861D0821E8A37A0009D3AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1861D0881E8A37B4009D3AFE /* UIButton+EnLarge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnLarge.h"; sourceTree = "<group>"; };
+		1861D0891E8A37B4009D3AFE /* UIButton+EnLarge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EnLarge.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		1861D0701E8A37A0009D3AFE /* EnLargeButtonHitArea */ = {
 			isa = PBXGroup;
 			children = (
+				1861D0881E8A37B4009D3AFE /* UIButton+EnLarge.h */,
+				1861D0891E8A37B4009D3AFE /* UIButton+EnLarge.m */,
 				1861D0741E8A37A0009D3AFE /* AppDelegate.h */,
 				1861D0751E8A37A0009D3AFE /* AppDelegate.m */,
 				1861D0771E8A37A0009D3AFE /* ViewController.h */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1861D08A1E8A37B4009D3AFE /* UIButton+EnLarge.m in Sources */,
 				1861D0791E8A37A0009D3AFE /* ViewController.m in Sources */,
 				1861D0761E8A37A0009D3AFE /* AppDelegate.m in Sources */,
 				1861D0731E8A37A0009D3AFE /* main.m in Sources */,

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIButton+EnLarge.h"
 
 @interface ViewController ()
 
@@ -17,8 +18,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    btn.backgroundColor = [UIColor orangeColor];
+    [btn setTitle:@"click me" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [btn setEnlargeEdgeWithEdgeInsets:UIEdgeInsetsMake(50, 50, 50, 50)];
+    
+    [self.view addSubview:btn];
+    
 }
 
+- (void)click:(UIButton *)sender{
+    NSLog(@" ----- click me ---- ");
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
